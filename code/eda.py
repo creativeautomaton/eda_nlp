@@ -58,8 +58,12 @@ def get_only_chars(line):
 ########################################################################
 
 #for the first time you use wordnet
-#import nltk
-#nltk.download('wordnet')
+
+# let in to run during collab might remove on dev
+import nltk
+nltk.download('wordnet')
+#
+
 from nltk.corpus import wordnet 
 
 def synonym_replacement(words, n):
